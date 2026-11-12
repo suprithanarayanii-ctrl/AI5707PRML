@@ -1,0 +1,89 @@
+Dataset,Experiment,Components,Explained_Variance,Classifier,Accuracy
+MNIST,Baseline,Original,,KNN,99.712
+MNIST,Baseline,Original,,LDA,98.848
+MNIST,Baseline,Original,,GMM,92.832
+MNIST,Baseline,Original,,SVM,98.912
+ImageFeature,PCA,5,40.35,KNN,27.4
+ImageFeature,PCA,5,40.35,LDA,31.8
+ImageFeature,PCA,5,40.35,GMM,32.8
+ImageFeature,PCA,5,40.35,SVM,32.0
+ImageFeature,PCA,10,62.23,KNN,32.4
+ImageFeature,PCA,10,62.23,LDA,36.0
+ImageFeature,PCA,10,62.23,GMM,36.6
+ImageFeature,PCA,10,62.23,SVM,29.8
+ImageFeature,PCA,20,82.8,KNN,32.4
+ImageFeature,PCA,20,82.8,LDA,39.2
+ImageFeature,PCA,20,82.8,GMM,35.8
+ImageFeature,PCA,20,82.8,SVM,37.8
+ImageFeature,PCA,30,94.51,KNN,29.0
+ImageFeature,PCA,30,94.51,LDA,41.0
+ImageFeature,PCA,30,94.51,GMM,37.6
+ImageFeature,PCA,30,94.51,SVM,37.0
+ImageFeature,PCA,35,99.16,KNN,31.4
+ImageFeature,PCA,35,99.16,LDA,39.2
+ImageFeature,PCA,35,99.16,GMM,38.8
+ImageFeature,PCA,35,99.16,SVM,35.0
+MNIST,PCA,50,87.05,KNN,99.872
+MNIST,PCA,50,87.05,LDA,98.752
+MNIST,PCA,50,87.05,GMM,97.6
+MNIST,PCA,50,87.05,SVM,98.848
+MNIST,PCA,100,93.67,KNN,99.776
+MNIST,PCA,100,93.67,LDA,98.912
+MNIST,PCA,100,93.67,GMM,98.496
+MNIST,PCA,100,93.67,SVM,98.976
+MNIST,PCA,200,97.69,KNN,99.712
+MNIST,PCA,200,97.69,LDA,98.976
+MNIST,PCA,200,97.69,GMM,98.304
+MNIST,PCA,200,97.69,SVM,98.336
+MNIST,PCA,300,99.22,KNN,99.712
+MNIST,PCA,300,99.22,LDA,98.912
+MNIST,PCA,300,99.22,GMM,98.08
+MNIST,PCA,300,99.22,SVM,98.912
+TI Digits,Baseline,Original,,KNN,99.63
+TI Digits,Baseline,Original,,LDA,100.0
+TI Digits,Baseline,Original,,GMM,99.259
+TI Digits,Baseline,Original,,SVM,98.148
+ImageFeature,Baseline,Original,,KNN,32.8
+ImageFeature,Baseline,Original,,LDA,38.2
+ImageFeature,Baseline,Original,,GMM,37.0
+ImageFeature,Baseline,Original,,SVM,36.8
+Synthetic,PCA,2,34.43,KNN,84.65
+Synthetic,PCA,2,34.43,LDA,87.25
+Synthetic,PCA,2,34.43,GMM,87.7
+Synthetic,PCA,2,34.43,SVM,80.675
+Synthetic,PCA,5,59.6,KNN,95.575
+Synthetic,PCA,5,59.6,LDA,92.675
+Synthetic,PCA,5,59.6,GMM,93.2
+Synthetic,PCA,5,59.6,SVM,92.3
+Synthetic,PCA,10,84.24,KNN,97.775
+Synthetic,PCA,10,84.24,LDA,93.275
+Synthetic,PCA,10,84.24,GMM,93.675
+Synthetic,PCA,10,84.24,SVM,92.725
+Synthetic,PCA,15,98.81,KNN,99.45
+Synthetic,PCA,15,98.81,LDA,95.825
+Synthetic,PCA,15,98.81,GMM,96.175
+Synthetic,PCA,15,98.81,SVM,95.225
+Synthetic,Baseline,Original,,KNN,99.575
+Synthetic,Baseline,Original,,LDA,95.9
+Synthetic,Baseline,Original,,GMM,96.075
+Synthetic,Baseline,Original,,SVM,95.6
+TI Digits,PCA,10,60.44,KNN,34.815
+TI Digits,PCA,10,60.44,LDA,31.481
+TI Digits,PCA,10,60.44,GMM,33.333
+TI Digits,PCA,10,60.44,SVM,31.852
+TI Digits,PCA,20,75.11,KNN,38.889
+TI Digits,PCA,20,75.11,LDA,31.481
+TI Digits,PCA,20,75.11,GMM,33.333
+TI Digits,PCA,20,75.11,SVM,30.37
+TI Digits,PCA,40,93.47,KNN,30.0
+TI Digits,PCA,40,93.47,LDA,37.407
+TI Digits,PCA,40,93.47,GMM,33.333
+TI Digits,PCA,40,93.47,SVM,32.963
+TI Digits,PCA,60,99.22,KNN,30.37
+TI Digits,PCA,60,99.22,LDA,39.259
+TI Digits,PCA,60,99.22,GMM,33.333
+TI Digits,PCA,60,99.22,SVM,35.926
+TI Digits,PCA,75,99.91,KNN,32.593
+TI Digits,PCA,75,99.91,LDA,35.556
+TI Digits,PCA,75,99.91,GMM,33.333
+TI Digits,PCA,75,99.91,SVM,33.333
